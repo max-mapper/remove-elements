@@ -5,6 +5,8 @@ boilerplate and might spare somebody some Googling if they forget.
 
 Uses https://github.com/hughsk/remove-element by @hughsk
 
+[![testling badge](https://ci.testling.com/maxogden/remove-elements.png)](https://ci.testling.com/maxogden/remove-elements)
+
 ## Usage
 
 [![remove-elements](https://nodei.co/npm/remove-elements.png)](https://nodei.co/npm/remove-elements)

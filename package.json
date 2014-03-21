@@ -8,7 +8,9 @@
   "dependencies": {
     "remove-element": "0.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "tape": "^2.10.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +21,21 @@
   "bugs": {
     "url": "https://github.com/maxogden/remove-elements/issues"
   },
-  "homepage": "https://github.com/maxogden/remove-elements"
+  "homepage": "https://github.com/maxogden/remove-elements",
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/17..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  }
 }
