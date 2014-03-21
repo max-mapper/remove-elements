@@ -1,0 +1,23 @@
+{
+  "name": "remove-elements",
+  "version": "0.0.1",
+  "description": "Removes elements from the DOM by CSS selector",
+  "main": "index.js",
+  "author": "max ogden",
+  "license": "BSD",
+  "dependencies": {
+    "remove-element": "0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxogden/remove-elements.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/remove-elements/issues"
+  },
+  "homepage": "https://github.com/maxogden/remove-elements"
+}
