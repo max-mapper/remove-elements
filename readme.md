@@ -14,7 +14,10 @@ Uses https://github.com/hughsk/remove-element by @hughsk
 ### `remove(cssSelectorString, [scope])`
 
 Removes all matching elements from the DOM, if they are attached.
-If `scope` is defined it uses `scope.querySelectorAll` otherwise `document.querySelectorAll`.
+If `scope` is not defined it will use `document.querySelectorAll`.
+If `scope` is an element it will use `scope.querySelectorAll`, if
+it is an array (or [NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList))
+it will iterate over it and use `scope[i].querySelectorAll`.
 
 ## License
 
