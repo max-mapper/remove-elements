@@ -11,9 +11,10 @@ Uses https://github.com/hughsk/remove-element by @hughsk
 
 [![remove-elements](https://nodei.co/npm/remove-elements.png)](https://nodei.co/npm/remove-elements)
 
-### `remove(cssSelectorString)`
+### `remove(cssSelectorString, [scope])`
 
-Removes all matching elements from the DOM, if they are attached. Uses `document.querySelectorAll` internally
+Removes all matching elements from the DOM, if they are attached.
+If `scope` is defined it uses `scope.querySelectorAll` otherwise `document.querySelectorAll`.
 
 ## License
 
