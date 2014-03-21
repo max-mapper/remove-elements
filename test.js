@@ -11,3 +11,15 @@ test('removes element', function(t) {
   t.notOk(match)
   t.end()
 })
+
+test('removes element in scope', function(t) {
+  var scope = document.createElement('div')
+  var div = document.createElement('div')
+  elementClass(div).add('foo')
+  scope.appendChild(div)
+  document.body.appendChild(scope)
+  remove('.foo', scope)
+  var match = document.querySelector('.foo')
+  t.notOk(match)
+  t.end()
+})
