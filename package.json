@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/maxogden/remove-elements",
   "testling": {
-    "files": "test/*.js",
+    "files": "test.js",
     "browsers": [
       "ie/8..latest",
       "firefox/17..latest",
